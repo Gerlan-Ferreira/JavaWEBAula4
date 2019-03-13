@@ -25,7 +25,17 @@
 		
 		%>
 		
-		<%=msg %>
+		<div style="margin-left: 300px; margin-right: 300px; color: red; font-family: Arial; font-size: 15px;">
+		
+		<%
+		
+		if(msg != null){
+			
+			out.println(msg);
+		}
+			
+		%>
+		</div>
 		
 	</body>
 </html>

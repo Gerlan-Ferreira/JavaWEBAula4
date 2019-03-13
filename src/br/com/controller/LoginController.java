@@ -40,7 +40,7 @@ public class LoginController extends HttpServlet {
 			
 			//response.sendRedirect("login.jsp");
 			
-			String msg = "usuario ou senha inválidos";
+			String msg = "*Usuário ou senha inválidos";
 			
 			RequestDispatcher l = request.getRequestDispatcher("login.jsp");
 			
